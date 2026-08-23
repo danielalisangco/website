@@ -37,11 +37,12 @@ html, body{
 }
 
 .exhibit {
+  aspect-ratio: 16 / 9;
   background-size: cover;
   background-position: center;
   display: flex;
-  height: calc(100vh / 3);
-  width: calc(100vw / 3);
+  height: auto;
+  width: 100%;
 }
 
 .exhibit.cut {
