@@ -166,28 +166,19 @@ html, body{
   z-index: 4;
 }
 
+.button.home:hover {
+  align-items: center;
+  background-image: url("graphics/nav/logo-hover.svg");
+}
+
 .button.home.folio {
   top: -508px;
   transform: translateX(calc(-50vw + 48px)) translateY(524px);
 }
 
-.button.home.folio:hover {
-  align-items: center;
-  background-image: url("graphics/nav/logo-hover.svg");
-}
-
-.button.home.folio.cut:hover {
-  align-items: center;
-  background-image: url("graphics/nav-hover.svg");
-}
-
 .button.home.resume {
   top: -238px;
   transform: translateX(calc(-50vw + 48px)) translateY(254px);
-}
-
-.button.home.resume:hover {
-  background-image: url("graphics/nav-hover.svg");
 }
 
 .button.nav {
