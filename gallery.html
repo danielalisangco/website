@@ -3,7 +3,7 @@
   <head>
     <meta charset="utf-8">
     <title>Daniel Alisangco's Portfolio - Showcase</title>
-    <base href="../" target="_blank">
+    <base target="_blank">
     <!-- Bootstrap -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"></script>
@@ -19,12 +19,12 @@
   <body>
     <!-- Logo in navigation, not in nav due to errors. -->
     <div class="nav-circle folio"></div>
-    <a class="button home folio" href="folio/index.html" target="_self"></a>
+    <a class="button home folio" href="index.html" target="_self"></a>
     <!-- End of pre-nav sticky elements. -->
     <header class="folio">
       <div class="header background folio">
         <video class="header full folio" autoplay loop muted>
-          <source src="assets/graphics/folio/gallery/header.mp4" type="video/mp4">
+          <source src="assets/graphics/headers/atom.mp4" type="video/mp4">
         </video>
       </div>
       <div class="header foreground folio">
@@ -34,26 +34,27 @@
     </header>
     <!-- Navigation Start -->
     <nav>
-        <div class="nav block"></div>
-        <a class="button nav info text-show" href="resume/index.html" target="_self"><span class="text-hidden">Resume</span></a>
-        <div class="nav block"></div>
-        <div class="nav block"></div>
-        <div class="nav block"></div>
-        <a class="button nav gallery text-show" href="folio/gallery.html" target="_self"><span class="text-hidden">Showcase</span></a>
-        <div class="nav block"></div>
-        <!-- This navigation contains - reltive links - they link to places inside the site root folder and open into the same tab or window -->
-        <!-- MPORTANT if we rename html files(pages) or create new html files(pages), we need to update the Main Navigation and href on ALL of the pages -->
+      <div class="nav block"></div>
+      <a class="button nav info text-show" href="info.html" target="_self"><span class="text-hidden">About&nbsp;Me</span></a>
+      <a class="button nav gallery text-show" href="gallery.html" target="_self"><span class="text-hidden">Showcase</span></a>
+      <a class="button nav folio text-show" href="folio.html" target="_self"><span class="text-hidden">Portfolio</span></a>
+      <div class="nav block"></div>
+      <div class="nav block"></div>
+      <a class="button nav resume text-show" href="resume.html" target="_self"><span class="text-hidden">Resume</span></a>
+      <a class="button nav studies text-show" href="studies.html" target="_self"><span class="text-hidden">Education</span></a>
+      <a class="button nav work text-show" href="work.html" target="_self"><span class="text-hidden">Previous&nbsp;Work</span></a>
+      <div class="nav block"></div>
     </nav>
     <div class="nav-shadow"></div>
     <!-- Body Start -->
     <section>
       <h3>A display of my works.</h3>
       <div class="row"><div class="col"><h4>Showreel 2024:</h4></div></div>
-      <div class="p-5"><iframe class="centre" width="70%" height="auto" src="https://www.youtube.com/embed/hhnvNs2Mfec?rel=0" title="Featured Work" frameborder="0" allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
+      <div class="p-5"><iframe class="centre" width="66.66%" height="auto" src="https://www.youtube.com/embed/hhnvNs2Mfec?rel=0" title="Featured Work" frameborder="0" allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
       <div class="row"><div class="col"><h4>Projects:</h4></div></div>
       <div class="d-flex flex-wrap">
-        <div class="col-12 col-md-4">
-          <div class="exhibit text-show" style="background-image: url('assets/graphics/folio/gallery/feeling.jpg')" data-bs-toggle="modal" data-bs-target="#snap">
+        <div class="col-12 col-sm-6 col-md-4">
+          <div class="exhibit text-show" style="background-image: url('assets/graphics/individual/gallery/feeling.jpg')" data-bs-toggle="modal" data-bs-target="#snap">
             <span class="text-hidden">Snap Fitness Advertisement</span>
           </div>
           <!-- Start of Modal -->
@@ -130,8 +131,8 @@
           </div>
           <!-- End of Modal -->
         </div>
-        <div class="col-12 col-md-4">
-          <div class="exhibit text-show" style="background-image: url('assets/graphics/folio/gallery/misunderstood.jpg')" data-bs-toggle="modal" data-bs-target="#misunderstood">
+        <div class="col-12 col-sm-6 col-md-4">
+          <div class="exhibit text-show" style="background-image: url('assets/graphics/individual/gallery/misunderstood.jpg')" data-bs-toggle="modal" data-bs-target="#misunderstood">
             <span class="text-hidden">MisUnderstood</span>
           </div>
           <!-- Start of Modal -->
@@ -157,8 +158,8 @@
           </div>
           <!-- End of Modal -->
         </div>
-        <div class="col-12 col-md-4">
-          <div class="exhibit text-show" style="background-image: url('assets/graphics/folio/gallery/infiliso.jpg')" data-bs-toggle="modal" data-bs-target="#infiliso">
+        <div class="col-12 col-sm-6 col-md-4">
+          <div class="exhibit text-show" style="background-image: url('assets/graphics/individual/gallery/infiliso.jpg')" data-bs-toggle="modal" data-bs-target="#infiliso">
             <span class="text-hidden">Infiltrated Isolation</span>
           </div>
           <!-- Start of Modal -->
@@ -186,8 +187,8 @@
           </div>
           <!-- End of Modal -->
         </div>
-        <div class="col-12 col-md-4">
-          <div class="exhibit text-show" style="background-image: url('assets/graphics/folio/gallery/reds.png')" data-bs-toggle="modal" data-bs-target="#reds">
+        <div class="col-12 col-sm-6 col-md-4">
+          <div class="exhibit text-show" style="background-image: url('assets/graphics/individual/gallery/reds.png')" data-bs-toggle="modal" data-bs-target="#reds">
             <span class="text-hidden">Since the Reds</span>
           </div>
           <!-- Start of Modal -->
@@ -215,8 +216,8 @@
           </div>
           <!-- End of Modal -->
         </div>
-        <div class="col-12 col-md-4">
-          <div class="exhibit text-show" style="background-image: url('assets/graphics/folio/gallery/honour.png')" data-bs-toggle="modal" data-bs-target="#honour">
+        <div class="col-12 col-sm-6 col-md-4">
+          <div class="exhibit text-show" style="background-image: url('assets/graphics/individual/gallery/honour.png')" data-bs-toggle="modal" data-bs-target="#honour">
             <span class="text-hidden">Shattered Honour</span>
           </div>
           <!-- Start of Modal -->
@@ -243,8 +244,8 @@
           </div>
           <!-- End of Modal -->
         </div>
-        <div class="col-12 col-md-4">
-          <div class="exhibit text-show" style="background-image: url('assets/graphics/folio/gallery/ectoplasm.png')" data-bs-toggle="modal" data-bs-target="#ectoplasm">
+        <div class="col-12 col-sm-6 col-md-4">
+          <div class="exhibit text-show" style="background-image: url('assets/graphics/individual/gallery/ectoplasm.png')" data-bs-toggle="modal" data-bs-target="#ectoplasm">
             <span class="text-hidden">Ectoplasmic</span>
           </div>
           <!-- Start of Modal -->
@@ -268,8 +269,8 @@
           </div>
           <!-- End of Modal -->
         </div>
-        <div class="col-12 col-md-4">
-          <div class="exhibit text-show" style="background-image: url('assets/graphics/folio/gallery/liquidtree.png')" data-bs-toggle="modal" data-bs-target="#soldsaved">
+        <div class="col-12 col-sm-6 col-md-4">
+          <div class="exhibit text-show" style="background-image: url('assets/graphics/individual/gallery/liquidtree.png')" data-bs-toggle="modal" data-bs-target="#soldsaved">
             <span class="text-hidden">The Men Who Saved the World</span>
           </div>
           <!-- Start of Modal -->
@@ -296,8 +297,8 @@
           </div>
           <!-- End of Modal -->
         </div>
-        <div class="col-12 col-md-4">
-          <div class="exhibit text-show" style="background-image: url('assets/graphics/folio/gallery/tomorrow.png')" data-bs-toggle="modal" data-bs-target="#tomorrow">
+        <div class="col-12 col-sm-6 col-md-4">
+          <div class="exhibit text-show" style="background-image: url('assets/graphics/individual/gallery/tomorrow.png')" data-bs-toggle="modal" data-bs-target="#tomorrow">
             <span class="text-hidden">Young Voices of Tomorrow</span>
           </div>
           <!-- Start of Modal -->
@@ -322,8 +323,8 @@
           </div>
           <!-- End of Modal -->
         </div>
-        <div class="col-12 col-md-4">
-          <div class="exhibit text-show" style="background-image: url('assets/graphics/folio/gallery/pandora.png')" data-bs-toggle="modal" data-bs-target="#pandora">
+        <div class="col-12 col-sm-6 col-md-4">
+          <div class="exhibit text-show" style="background-image: url('assets/graphics/individual/gallery/pandora.png')" data-bs-toggle="modal" data-bs-target="#pandora">
             <span class="text-hidden">Death and Life</span>
           </div>
           <!-- Start of Modal -->
@@ -348,8 +349,8 @@
           </div>
           <!-- End of Modal -->
         </div>
-        <div class="col-12 col-md-4">
-          <div class="exhibit text-show" style="background-image: url('assets/graphics/folio/gallery/dotp.jpg')" data-bs-toggle="modal" data-bs-target="#dotp">
+        <div class="col-12 col-sm-6 col-md-4">
+          <div class="exhibit text-show" style="background-image: url('assets/graphics/individual/gallery/dotp.jpg')" data-bs-toggle="modal" data-bs-target="#dotp">
             <span class="text-hidden">Defender of the People</span>
           </div>
           <!-- Start of Modal -->
@@ -376,8 +377,8 @@
           </div>
           <!-- End of Modal -->
         </div>
-        <div class="col-12 col-md-4">
-          <div class="exhibit text-show" style="background-image: url('assets/graphics/folio/gallery/uue.png')" data-bs-toggle="modal" data-bs-target="#uue">
+        <div class="col-12 col-sm-6 col-md-4">
+          <div class="exhibit text-show" style="background-image: url('assets/graphics/individual/gallery/uue.png')" data-bs-toggle="modal" data-bs-target="#uue">
             <span class="text-hidden">Universal Uncensored Education</span>
           </div>
           <!-- Start of Modal -->
@@ -404,8 +405,8 @@
           </div>
           <!-- End of Modal -->
         </div>
-        <div class="col-12 col-md-4">
-          <div class="exhibit text-show" style="background-image: url('assets/graphics/folio/gallery/grad.jpg')" data-bs-toggle="modal" data-bs-target="#interview">
+        <div class="col-12 col-sm-6 col-md-4">
+          <div class="exhibit text-show" style="background-image: url('assets/graphics/individual/gallery/grad.jpg')" data-bs-toggle="modal" data-bs-target="#interview">
             <span class="text-hidden">Interview</span>
           </div>
           <!-- Start of Modal -->
@@ -430,8 +431,8 @@
           </div>
           <!-- End of Modal -->
         </div>
-        <div class="col-12 col-md-4">
-          <div class="exhibit text-show" style="background-image: url('assets/graphics/folio/gallery/book.png')" data-bs-toggle="modal" data-bs-target="#book">
+        <div class="col-12 col-sm-6 col-md-4">
+          <div class="exhibit text-show" style="background-image: url('assets/graphics/individual/gallery/book.png')" data-bs-toggle="modal" data-bs-target="#book">
             <span class="text-hidden">Book Cover Redesign</span>
           </div>
           <!-- Start of Modal -->
@@ -457,8 +458,8 @@
           </div>
           <!-- End of Modal -->
         </div>
-        <div class="col-12 col-md-4">
-          <div class="exhibit text-show" style="background-image: url('assets/graphics/folio/gallery/scindapub.png')" data-bs-toggle="modal" data-bs-target="#scindapub">
+        <div class="col-12 col-sm-6 col-md-4">
+          <div class="exhibit text-show" style="background-image: url('assets/graphics/individual/gallery/scindapub.png')" data-bs-toggle="modal" data-bs-target="#scindapub">
             <span class="text-hidden">Science in the Pub</span>
           </div>
           <!-- Start of Modal -->
@@ -493,8 +494,8 @@
           </div>
           <!-- End of Modal -->
         </div>
-        <div class="col-12 col-md-4">
-          <div class="exhibit text-show" style="background-image: url('assets/graphics/folio/gallery/collision.png')" data-bs-toggle="modal" data-bs-target="#collision">
+        <div class="col-12 col-sm-6 col-md-4">
+          <div class="exhibit text-show" style="background-image: url('assets/graphics/individual/gallery/collision.png')" data-bs-toggle="modal" data-bs-target="#collision">
             <span class="text-hidden">Night Photography</span>
           </div>
           <!-- Start of Modal -->
@@ -538,8 +539,8 @@
           </div>
           <!-- End of Modal -->
         </div>
-        <div class="col-12 col-md-4">
-          <div class="exhibit text-show" style="background-image: url('assets/graphics/folio/gallery/helios.png')" data-bs-toggle="modal" data-bs-target="#helios">
+        <div class="col-12 col-sm-6 col-md-4">
+          <div class="exhibit text-show" style="background-image: url('assets/graphics/individual/gallery/helios.png')" data-bs-toggle="modal" data-bs-target="#helios">
             <span class="text-hidden">Helios Travels</span>
           </div>
           <!-- Start of Modal -->
@@ -566,8 +567,8 @@
           </div>
           <!-- End of Modal -->
         </div>
-        <div class="col-12 col-md-4">
-          <div class="exhibit text-show" style="background-image: url('assets/graphics/folio/gallery/anzac.png')" data-bs-toggle="modal" data-bs-target="#anzac">
+        <div class="col-12 col-sm-6 col-md-4">
+          <div class="exhibit text-show" style="background-image: url('assets/graphics/individual/gallery/anzac.png')" data-bs-toggle="modal" data-bs-target="#anzac">
             <span class="text-hidden">Cliffs of Gallipoli</span>
           </div>
           <!-- Start of Modal -->
@@ -592,8 +593,8 @@
           </div>
           <!-- End of Modal -->
         </div>
-        <div class="col-12 col-md-4">
-          <div class="exhibit text-show" style="background-image: url('assets/graphics/folio/gallery/cloacaphobia.png')" data-bs-toggle="modal" data-bs-target="#cloacaphobia">
+        <div class="col-12 col-sm-6 col-md-4">
+          <div class="exhibit text-show" style="background-image: url('assets/graphics/individual/gallery/cloacaphobia.png')" data-bs-toggle="modal" data-bs-target="#cloacaphobia">
             <span class="text-hidden">Experimental</span>
           </div>
           <!-- Start of Modal -->
