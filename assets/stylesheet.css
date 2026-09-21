@@ -45,14 +45,6 @@ html, body{
   width: 100%;
 }
 
-.exhibit.cut {
-  background-size: cover;
-  background-position: center;
-  display: flex;
-  height: 180px;
-  width: 320px;
-}
-
 .exhibit:hover {
   background-blend-mode: multiply;
   background-color: #404040;
@@ -68,20 +60,11 @@ html, body{
   width: 100%;
 }
 
-.header.background.folio.cut {
-  width: 960px;
-  transform: translateX(0%);
-}
-
 .header.background.resume {
   align-items: center;
   background-color: #000000;
   display: flex;
   height: 270px;
-}
-
-.header.background.resume.cut {
-  width: 960px
 }
 
 .header.foreground {
@@ -98,16 +81,8 @@ html, body{
   height: 540px;
 }
 
-.header.foreground.folio.cut {
-  width: 960px
-}
-
 .header.foreground.resume {
   height: 270px;
-}
-
-.header.foreground.resume.cut {
-  width: 960px
 }
 
 .header.toggle {
@@ -122,11 +97,6 @@ html, body{
   user-select: none;
   width: 60px;
   z-index: 1;
-}
-
-.header.toggle.cut {
-  background-image: url("graphics/resume/header-idle-toggle-cut.svg");
-  transform: translateX(448px) translateY(8px);
 }
 
 .header.toggle.cut:hover {
@@ -187,7 +157,7 @@ html, body{
 }
 
 .button.home {
-  background-image: url("graphics/nav-idle.svg");
+  background-image: url("graphics/nav/logo-idle.svg");
   float: right;
   height: 96px;
   position: sticky;
@@ -203,11 +173,7 @@ html, body{
 
 .button.home.folio:hover {
   align-items: center;
-  background-image: url("graphics/nav-hover.svg");
-}
-
-.button.home.folio.cut {
-  transform: translateX(-432px) translateY(524px);
+  background-image: url("graphics/nav/logo-hover.svg");
 }
 
 .button.home.folio.cut:hover {
@@ -224,11 +190,6 @@ html, body{
   background-image: url("graphics/nav-hover.svg");
 }
 
-
-.button.nav.home.resume.cut {
-  transform: translateX(-432px) translateY(254px);
-}
-
 .button.nav {
   align-items: center;
   display: flex;
@@ -240,67 +201,67 @@ html, body{
 }
 
 .button.nav.contact {
-  background-image: url("graphics/resume/nav-idle-contact.svg");
+  background-image: url("graphics/nav/contact-idle.svg");
 }
 
 .button.nav.contact:hover {
-  background-image: url("graphics/resume/nav-hover-contact.svg");
+  background-image: url("graphics/nav/contact-hover.svg");
 }
 
 .button.nav.folio {
-  background-image: url("graphics/resume/nav-idle-folio.svg");
+  background-image: url("graphics/nav/folio-idle.svg");
 }
 
 .button.nav.folio:hover {
-  background-image: url("graphics/resume/nav-hover-folio.svg");
+  background-image: url("graphics/nav/folio-hover.svg");
 }
 
 .button.nav.gallery {
-  background-image: url("graphics/folio/nav-idle-gallery.svg");
+  background-image: url("graphics/nav/gallery-idle.svg");
 }
 
 .button.nav.gallery:hover {
-  background-image: url("graphics/folio/nav-hover-gallery.svg");
+  background-image: url("graphics/nav/gallery-hover.svg");
 }
 
 .button.nav.info {
-  background-image: url("graphics/folio/nav-idle-info.svg");
+  background-image: url("graphics/nav/info-idle.svg");
 }
 
 .button.nav.info:hover {
-  background-image: url("graphics/folio/nav-hover-info.svg");
-}
-
-.button.nav.intro {
-  background-image: url("graphics/resume/nav-idle-intro.svg");
-}
-
-.button.nav.intro:hover {
-  background-image: url("graphics/resume/nav-hover-intro.svg");
+  background-image: url("graphics/nav/info-hover.svg");
 }
 
 .button.nav.referred {
-  background-image: url("graphics/resume/nav-idle-referred.svg");
+  background-image: url("graphics/nav/referred-idle.svg");
 }
 
 .button.nav.referred:hover {
-  background-image: url("graphics/resume/nav-hover-referred.svg");
+  background-image: url("graphics/nav/referred-hover.svg");
+}
+
+.button.nav.resume {
+  background-image: url("graphics/nav/resume-idle.svg");
+}
+
+.button.nav.resume:hover {
+  background-image: url("graphics/nav/resume-hover.svg");
 }
 
 .button.nav.studies {
-  background-image: url("graphics/resume/nav-idle-studies.svg");
+  background-image: url("graphics/nav/studies-idle.svg");
 }
 
 .button.nav.studies:hover {
-  background-image: url("graphics/resume/nav-hover-studies.svg");
+  background-image: url("graphics/nav/studies-hover.svg");
 }
 
 .button.nav.work {
-  background-image: url("graphics/resume/nav-idle-work.svg");
+  background-image: url("graphics/nav/work-idle.svg");
 }
 
 .button.nav.work:hover {
-  background-image: url("graphics/resume/nav-hover-work.svg");
+  background-image: url("graphics/nav/work-hover.svg");
 }
 .nav-content {
   align-items: center;
@@ -314,7 +275,7 @@ html, body{
 }
 
 .nav-circle{
-  background-image: url("graphics/nav-circle.svg");
+  background-image: url("graphics/nav/logo-back.svg");
   float: left;
   height: 153px;
   position: sticky;
@@ -328,18 +289,10 @@ html, body{
   width: 178px;
 }
 
-.nav-circle.folio.cut {
-  transform: translateX(391px) translateY(508px);
-}
-
 .nav-circle.resume{
   top: -238px;
   transform: translateX(calc(50vw - 89px)) translateY(238px);
   width: 178px;
-}
-
-.nav-circle.resume.cut {
-  transform: translateX(391px) translateY(238px);
 }
 
 .nav-shadow{
@@ -377,32 +330,10 @@ html, body{
   transform: translateX(-100%);
 }
 
-.subheading-primary{
-  font-size: 14pt;
-  line-height: 14pt;
-  margin: 8px 0px 0px 0px;
-}
-
-.subheading-secondary{
+.subheading{
   font-size: 12pt;
   line-height: 12pt;
   margin: 8px 0px 0px 0px;
-}
-
-.shadow-left {
-  background-image: linear-gradient(to left, rgba(0,0,0,100), rgba(0,0,0,0));
-  height: 100%;
-  width: 20px;
-  position: fixed;
-  transform: translateX(-20px);
-}
-
-.shadow-right {
-  background-image: linear-gradient(to right, rgba(0,0,0,100), rgba(0,0,0,0));
-  height: 100%;
-  width: 20px;
-  position: fixed;
-  transform: translateX(960px);
 }
 
 .spotlightshowcut {
@@ -434,7 +365,7 @@ html, body{
   text-align-last: right;
 }
 
-.text-show.nav:hover .text-hidden {
+.text-show:hover .text-hidden {
   color: #f0f0f0;
   display: flex;
   font-size: 12pt;
@@ -527,7 +458,7 @@ button {
 }
 
 button:hover {
-  cursor: pointer;
+  cursor: not-allowed;
 }
 
 textarea {
@@ -578,10 +509,6 @@ footer.folio {
   width: 100%;
 }
 
-footer.folio.cut {
-  font-size: 10pt;
-}
-
 footer.resume {
   background-color: #202020;
   clear: both; /* re floats - final element in a stack should clear floats so nothing beyound it can enter the stack - No floating elements allowed on either the left or the right side */
@@ -589,11 +516,6 @@ footer.resume {
   line-height: 24pt;
   width: 100%;
 }
-
-footer.resume.cut {
-  font-size: 10pt;
-}
-
 
 
 
@@ -620,13 +542,6 @@ body {
   margin: 0px;
 }
 
-body.cut {
-  margin-left: auto;
-  margin-right: auto;
-  width: 960px;
-  left: 0vw;
-}
-
 
 
 /* Typography
@@ -641,38 +556,21 @@ h1 {
   font-family: "Lora", Times, serif;
   font-weight: bold;
   height: 270px;
+  justify-content: center;
   line-height: 50pt;
   margin: 0px;
+  text-align: center;
   text-transform: uppercase;
 }
 
 h1.folio {
   font-size: 3.6vw;
-  justify-content: center;
-  text-align: center;
   transform: translateY(-48px);
-}
-
-h1.folio.cut {
-  display: block;
-  height: 135px;
-  padding: 100px 50px 0px 50px;
-  text-align-last: center;
-  transform: translateY(-181px);
 }
 
 h1.resume {
   font-size: 2.4vw;
-  padding-left: 7vw;
-  text-align: left;
-}
-
-h1.resume.cut {
-  display: block;
-  height: 135px;r
-  padding: 100px 50px 0px 50px;
-  text-align-last: justify;
-  transform: translateY(-64px);
+  transform: translateY(24px);
 }
 
 h2 {
@@ -684,39 +582,13 @@ h2 {
   font-style: italic;
   font-weight: bold;
   height: 270px;
+  justify-content: center;
   line-height: 1.28vw;
   margin: 0px;
   text-align: right;
   text-transform: uppercase;
+  transform: translateY(50px);
   vertical-align: middle;
-}
-
-h2.folio {
-  justify-content: center;
-  transform: translateY(50px);
-}
-
-h2.folio.cut {
-  display: block;
-  font-size: 12pt;
-  height: 135px;
-  padding-right: 50px;
-  text-align-last: justify;
-  transform: translateY(200px);
-}
-
-h2.resume {
-  padding-left: 7vw;
-  padding-right: 7vw;
-}
-
-h2.resume.cut {
-  display: block;
-  font-size: 12pt;
-  height: 135px;
-  padding-right: 3vw;
-  text-align-last: justify;
-  transform: translateY(50px);
 }
 
 h3{
@@ -781,10 +653,10 @@ h6 {
   align-items: center;
   color: #D8D8D8;
   font-family: "Montserrat", Arial, sans-serif;
-  font-size: 16pt;
+  font-size: 14pt;
   font-style: italic;
-  font-weight: bold;
-  margin: 0px 0px 15px 0px;
+  line-height: 14pt;
+  margin: 8px 0px 0px 0px;
   position: relative;
   text-align: left;
 }
@@ -821,26 +693,12 @@ p {
   padding: 0px;
 }
 
-footer.cut {
-  color: #FFFFFF;
-  font-family: "Montserrat", Arial, sans-serif;
-  font-size: 12pt;
-  line-height: 32pt;
-  margin: 0px 0px 0px 0px;
-  margin-block-end: 0px;
-  margin-block-start: 0px;
-}
-
 video.header {
   height: 350%;
 }
 
 video.header.folio.full {
   transform: translateX(calc(50vw - 480px));
-}
-
-video.header.resume.cut {
-  transform: translateX(-21.5%);
 }
 
 video.header.resume.full {
